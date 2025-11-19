@@ -3,5 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('test-git');
 });
+
+/*Route::get('/test-git', function () {
+    return view('test-git');
+});*/
